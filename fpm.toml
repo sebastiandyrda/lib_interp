@@ -1,0 +1,5 @@
+name = "interp"
+version = "0.0.1"
+
+[library]
+source-dir="src"
