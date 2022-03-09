@@ -1,2 +1,9 @@
 name = "interp"
 
+[library]
+source-dir="src"
+
+[[ test ]]
+name="runTests"
+source-dir="tests"
+main="test_interp.f90"

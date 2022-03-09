@@ -7439,7 +7439,6 @@ subroutine interp_linear ( m, data_num, t_data, p_data, interp_num, &
   integer ( kind = 4 ) left
   real ( kind = 8 ) p_data(m,data_num)
   real ( kind = 8 ) p_interp(m,interp_num)
-  logical r8vec_ascends_strictly
   integer ( kind = 4 ) right
   real ( kind = 8 ) t
   real ( kind = 8 ) t_data(data_num)
